@@ -51,6 +51,7 @@
 <script>
     let oddRow = document.getElementById("odd");
     let evenRow = document.getElementById("even");
+
     const editModal = new bootstrap.Modal(document.getElementById('editModal'), {
         keyboard: false
     })

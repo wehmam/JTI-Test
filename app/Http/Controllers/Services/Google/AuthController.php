@@ -32,7 +32,7 @@ class AuthController extends Controller
                 ]);
             }
             Auth::login($user);
-            // cookie('__apiToken', $user->createToken('auth_token')->plainTextToken);
+
             return redirect('dashboard');
         }catch (\Exception $e){
             return abort(500);
